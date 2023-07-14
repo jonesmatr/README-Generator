@@ -1,7 +1,7 @@
 # README-Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  This app create a professional README file for a project.
+  Creates a professional README file.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)

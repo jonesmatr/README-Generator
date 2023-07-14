@@ -52,20 +52,52 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ${renderLicenseBadge(data.license)}
-  ## Description
-  ${data.description}
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [Test](#test)
-  * [License](#license)
-  * [Questions](#questions)
-  * [Contributing](#contributing)
-  * [Badges](#badges)
-  * [Features](#features)
-  * [How to Contribute](#how-to-contribute)
+${renderLicenseBadge(data.license)}
+
+## Description
+${data.description}
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Test](#test)
+* [License](#license)
+* [Questions](#questions)
+* [Contributing](#contributing)
+* [Badges](#badges)
+* [Features](#features)
+* [How to Contribute](#how-to-contribute)
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Credits
+${data.contribution}
+
+## Test
+${data.test}
+
+## License
+This project is licensed under the ${renderLicenseSection(data.license)} - see the [LICENSE.md](${renderLicenseLink(data.license)}) file for details.
+
+## Questions
+If you have any questions, please feel free to reach out:
+* GitHub: [${data.github}](https://github.com/${data.github})
+* Email: ${data.email}
+
+## Contributing
+${data.contribution}
+
+## Badges
+
+## Features
+
+## How to Contribute
+${data.contribution}
 `;
 }
 
