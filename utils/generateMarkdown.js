@@ -51,6 +51,13 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  let installationSteps = "";
+  let stepCount = 1;
+
+  while (data[`step${stepCount}`]) {
+    installationSteps += `${stepCount}. ${data[`step${stepCount}`]}\n`;
+    stepCount++;
+  }
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 
@@ -65,8 +72,6 @@ ${data.description}
 * [License](#license)
 * [Questions](#questions)
 * [Contributing](#contributing)
-* [Badges](#badges)
-* [Features](#features)
 * [How to Contribute](#how-to-contribute)
 
 ## Installation
@@ -91,10 +96,6 @@ If you have any questions, please feel free to reach out:
 
 ## Contributing
 ${data.contribution}
-
-## Badges
-
-## Features
 
 ## How to Contribute
 ${data.contribution}
