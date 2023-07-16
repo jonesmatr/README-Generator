@@ -69,7 +69,7 @@ ${data.description}
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#test)
+* [Test](#test)
 * [Questions](#questions)
 
 
@@ -85,7 +85,7 @@ This project is licensed under the ${renderLicenseSection(data.license)} - see t
 ## Contributing
 ${data.contribution}
 
-## Tests
+## Test
 ${data.test}
 
 ## Questions
