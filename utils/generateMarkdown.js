@@ -80,6 +80,9 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
+## How to Contribute
+${data.contribution}
+
 ## Test
 ${data.test}
 
@@ -90,9 +93,6 @@ This project is licensed under the ${renderLicenseSection(data.license)} - see t
 If you have any questions, please feel free to reach out:
 * GitHub: [${data.github}](https://github.com/${data.github})
 * Email: ${data.email}
-
-## How to Contribute
-${data.contribution}
 `;
 }
 

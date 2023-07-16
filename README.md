@@ -17,7 +17,7 @@ The Readme Generator is a command-line application that helps developers quickly
 ## Installation
 To install this project, follow these steps:
 1. Clone the repository to your local machine using the following command: git clone https://github.com/your-username/your-project.git
-2. Navigate to the root directory of the project using the following command: cd your-project Replace your-project with the name of your project.
+2. Navigate to the root directory of the project using the following command: cd your-project Replace your-project with the name of your project
 3. Install the necessary dependencies using the following command: npm install This will install all of the necessary packages and dependencies for the project.
 4. Start the application using the following command: npm start This will start the application and open it in your default web browser.
 That's it! Once you've completed these steps, you should be able to use the application on your local machine.
@@ -32,16 +32,17 @@ To use this project, follow these steps:
 6. Once you've entered all of the necessary information, the application will generate a README.md file in the root directory of the project
 That's it! Once you've completed these steps, you should have a README file that contains all of the information about your project.
 
-## Credits
+## How to Contribute
 To contribute to this project, follow these steps:
-1. Clone the repository to your local machine using the following command: git clone https://github.com/your-username/your-project.git Replace your-username with your GitHub username and your-project with the name of your project.
-2. Navigate to the root directory of the project using the following command: cd your-project Replace your-project with the name of your project.
-3. Install the necessary dependencies using the following command: npm install This will install all of the necessary packages and dependencies for the project.
-4. Start the application using the following command: npm start This will start the application and open it in your default web browser. 
-5. Follow the prompts to enter information about your project, such as the title, description, and more.
-6. Once you've entered all of the necessary information, the application will generate a README.md file in the root directory of the project
+1. Guidelines: You can include guidelines for how to contribute to your project, such as how to submit a pull request or report an issue.
+2. Code style: You can include information about the code style that you use in your project, such as indentation, line length, and naming conventions.
+3. Testing: You can include information about how to test your project, such as what tools to use and what types of tests to run.
+4. Documentation: You can include information about how to contribute to the documentation for your project, such as how to update the README file or other documentation files.
+5. Code of conduct: You can include a code of conduct that outlines the expected behavior of contributors to the project, such as being respectful and inclusive.
+6. Contribution examples: You can include examples of specific contributions that you're looking for, such as bug fixes or new features.
 
 ## Test
+To test this project, follow these steps:
 1. Testing tools: If you're using any specific testing tools or frameworks, you can include information about how to install and use them.
 2. Test coverage: You can include information about the test coverage of your project, such as what percentage of the code is covered by tests.
 3. Test instructions: You can include instructions for how to run the tests for your project, such as what command to use and what output to expect.
@@ -55,21 +56,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 If you have any questions, please feel free to reach out:
 * GitHub: [jonesmatr](https://github.com/jonesmatr)
 * Email: jonesmatr@gmail.com
-
-## Contributing
-To contribute to this project, follow these steps:
-1. Clone the repository to your local machine using the following command: git clone https://github.com/your-username/your-project.git Replace your-username with your GitHub username and your-project with the name of your project.
-2. Navigate to the root directory of the project using the following command: cd your-project Replace your-project with the name of your project.
-3. Install the necessary dependencies using the following command: npm install This will install all of the necessary packages and dependencies for the project.
-4. Start the application using the following command: npm start This will start the application and open it in your default web browser. 
-5. Follow the prompts to enter information about your project, such as the title, description, and more.
-6. Once you've entered all of the necessary information, the application will generate a README.md file in the root directory of the project
-
-## How to Contribute
-To contribute to this project, follow these steps:
-1. Clone the repository to your local machine using the following command: git clone https://github.com/your-username/your-project.git Replace your-username with your GitHub username and your-project with the name of your project.
-2. Navigate to the root directory of the project using the following command: cd your-project Replace your-project with the name of your project.
-3. Install the necessary dependencies using the following command: npm install This will install all of the necessary packages and dependencies for the project.
-4. Start the application using the following command: npm start This will start the application and open it in your default web browser. 
-5. Follow the prompts to enter information about your project, such as the title, description, and more.
-6. Once you've entered all of the necessary information, the application will generate a README.md file in the root directory of the project
