@@ -12,7 +12,6 @@ This application uses Node.js and Inquirer to dynamically generate a professiona
 * [Tests](#test)
 * [Questions](#questions)
 
-
 ## Installation
 To install this project, follow these steps:
 1. Clone the repository 
