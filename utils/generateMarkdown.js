@@ -72,7 +72,6 @@ ${data.description}
 * [Test](#test)
 * [Questions](#questions)
 
-
 ## Installation
 ${data.installation}
 
