@@ -3,7 +3,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-
 // Function to ask for additional steps
 function askForAdditionalSteps(section, data) {
     return inquirer.prompt([
