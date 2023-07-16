@@ -9,7 +9,7 @@ This application uses Node.js and Inquirer to dynamically generate a professiona
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#test)
+* [Test](#test)
 * [Questions](#questions)
 
 ## Installation
@@ -27,7 +27,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://op
 ## Contributing
 Contributions are welcome! Please create a pull request with your changes.
 
-## Tests
+## Test
 No tests are currently included.
 
 ## Questions
