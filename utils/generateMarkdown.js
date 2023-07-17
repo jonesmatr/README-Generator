@@ -63,7 +63,8 @@ ${renderLicenseBadge(data.license)}
 
 ## Description
 ${data.description}
-${data.link} 
+
+Click on the link ${data.link} 
 
 ## Table of Contents
 * [Installation](#installation)
