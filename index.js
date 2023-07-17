@@ -42,6 +42,11 @@ async function askQuestions() {
         },
         {
             type: "input",
+            name: "description",
+            message: "Please provide a description of your project."
+        },
+        {
+            type: "input",
             name: "installation",
             message: "Please provide installation instructions for your project.",
             additionalSteps: true
