@@ -42,8 +42,8 @@ async function askQuestions() {
         },
         {
             type: "input",
-            name: "description",
-            message: "Please provide a description of your project."
+            name: "link",
+            message: "Please provide any relevant links for your project."
         },
         {
             type: "input",
