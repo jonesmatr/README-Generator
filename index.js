@@ -19,7 +19,7 @@ function askForAdditionalSteps(section, data) {
         }
     ]).then((answers) => {
         if (answers.addStep) {
-            data[section] += "\n" + answers.nextStep;
+            data[section] += "\n\n" + answers.nextStep;
             return askForAdditionalSteps(section, data);
         } else {
             return data;
